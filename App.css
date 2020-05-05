@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: #fafafa;
+  font-size: 18px;
+  color: #333333;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+h1{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 25px 0px;
+ 
+}
+h2{
+  margin: 7px 0px;
+  font-size: 28px;
+}
+p{
+  margin: 10 px 0px;
+}
+.section{
+  width: 738px;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+.ml-60{
+  margin-left: 60px;
+  width: 670px;
+}
+.about{
+  margin-top:125px ;
+ 
+}
+.box{
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px #e0e0e0;
+  width: 738px;
+  margin: 0px auto;
+  padding: 30px 60px;
+  border-radius: 5px;
+
+}
+.profilesummary{
+  position: relative;
+  top: -100px;
+ 
+}
+.profile-image{
+  display: inline-block;
+}
+.profile-pic{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.profile-heading{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 25px;
+}
+.icon i{
+  width: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+.profile-description{
+  margin-top:-100px ;
+  
+}
+.left, .right{
+  display: inline-block;
+}
+.w-100{
+  width: 100px;
+}
+.h-100{
+  height: 100px;
+}
+.w-500{
+  width: 500px;
+}
+.pl-25{
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.row-container{
+  padding: 20px 0px;
+}
+.v-top{
+  vertical-align: top;
+
+}
+.contact{
+  padding: 10px 0px;
+
+}
+.contact i{
+  width: 100px;
+  font-size: 36px;
+  text-align: center;
+  
+
+}
+.contact h2{
+  display: inline-block;
+}
+.text-center{
+  text-align: center;
+}
+
+.about1{
+  font-size: 35px;
+  font-weight: bold;
+  margin: 25px 0px;
+  text-align: left;
+}
